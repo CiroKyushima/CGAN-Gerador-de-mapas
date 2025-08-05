@@ -35,8 +35,13 @@ escolhi esses modelos para que não houvesse injustiças no treinamento. um mode
 
 o Código foi desenvolvido com jupyter, o dataset esta disponivel no link abaixo:</br>
 http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/</br>
-para o modelo gerador, utilizo o modelo U-net, e para o modelo discriminador, utilizo o patchGAN. ambos modelos apresentam resultados parecidos em suas respectivas funções.
 para o treinamento e validação, utilizo 1096 imagens, cada imagem apresenta dois modelos de mapas, um modelo via satelite e ao lado o modelo padrão para comparação:
 ![modelo 1](image/2.jpg)
 ![modelo 2](image/3.ipg)
 ![modelo 3](image/7.jpg)
+o mapa via satelite é utilizado pela U-Net para o treinamento da geração da imagem, ja o mapa padrão e utilizado pelo patchGAN para a validação das imagens geradas.
+para diverfisifcar o treinamento do modelo gerador, utilizo um dimensionamento aleatorio para que as imagens não apresentem padrões que possam atrapalhar no treinamento.</br>
+
+o treinamento foi composto por 40000 etapas e o resultado foi satisfatorio:
+![modelo 1](image/ttttt.jpg)
+to be continued...
