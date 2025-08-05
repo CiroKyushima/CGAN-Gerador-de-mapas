@@ -36,3 +36,7 @@ A entrada condicional é a imagem de satélite, que guia o processo de geração
 o Código foi desenvolvido com jupyter, o dataset esta disponivel no link abaixo:</br>
 http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/</br>
 para o modelo gerador, utilizo o modelo U-net, e para o modelo discriminador, utilizo o patchGAN. ambos modelos apresentam resultados parecidos em suas respectivas funções.
+para o treinamento e validação, utilizo 1096 imagens, cada imagem apresenta dois modelos de mapas, um modelo via satelite e ao lado o modelo padrão para comparação:
+![modelo 1](image/2.png)
+![modelo 2](image/3.png)
+![modelo 3](image/7.png)
