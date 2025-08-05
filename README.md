@@ -42,6 +42,7 @@ para o treinamento e validação, utilizo 1096 imagens, cada imagem apresenta do
 o mapa via satelite é utilizado pela U-Net para o treinamento da geração da imagem, ja o mapa padrão e utilizado pelo patchGAN para a validação das imagens geradas.
 para diverfisifcar o treinamento do modelo gerador, utilizo um dimensionamento aleatorio para que as imagens não apresentem padrões que possam atrapalhar no treinamento.</br>
 
+
 ---
 ## Resultado do Projeto
 o treinamento foi composto por 40000 etapas. abaixo estao imagens do mapa via satelite, ao lado o mapa padrão real e por ultimo o mapa gerado pela IA:
