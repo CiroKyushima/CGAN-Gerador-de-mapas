@@ -59,7 +59,7 @@ esse projeto demonstra que a aplicação de IAs podem ser muito úteis para mape
 
 ```bash
 # 1️⃣ Clonar o repositório
-git clone https://github.com/CiroKyushima/Superstore-Dataset-uma-analise-grafica.git
+git clone https://github.com/CiroKyushima/CGAN-Gerador-de-mapas.git
 
 # 2️⃣ Instalar as dependências
 pip install -r requirements.txt
