@@ -53,3 +53,17 @@ o treinamento foi composto por 40000 etapas. abaixo estao imagens do mapa via sa
 como nas imagens, o resultado ainda não foi tão preciso, alguns paramentros deverão ser modificados e tambem será muito bom aumentar o numero de epocas para que os resultados sejam ainda mais precisos.
 esse projeto demonstra que a aplicação de IAs podem ser muito úteis para mapeamentos. os dois modelos de IA utilizados nesse projeto, são considerado modelos simples, porem, ainda assim conseguiram resultados sastifatorios.
 
+
+---
+##  Como Executar o Projeto
+
+```bash
+# 1️⃣ Clonar o repositório
+git clone https://github.com/CiroKyushima/Superstore-Dataset-uma-analise-grafica.git
+
+# 2️⃣ Instalar as dependências
+pip install -r requirements.txt
+
+# 3️⃣ Abrir o Jupyter Notebook
+jupyter notebook main.ipynb
+
