@@ -46,7 +46,9 @@ para diverfisifcar o treinamento do modelo gerador, utilizo um dimensionamento a
 ---
 ## Resultado do Projeto
 o treinamento foi composto por 40000 etapas. abaixo estao imagens do mapa via satelite, ao lado o mapa padrão real e por ultimo o mapa gerado pela IA:
-![modelo 1](image/ttttt.jpg)
+![modelo 1](image/resultado_pix2pix_etapa_37000.png)
+![modelo 2](image/resultado_pix2pix_etapa_38000.png)
+![modelo 3](image/resultado_pix2pix_etapa_39000.png)
 
 como nas imagens, o resultado ainda não foi tão preciso, alguns paramentros deverão ser modificados e tambem será muito bom aumentar o numero de epocas para que os resultados sejam ainda mais precisos.
 esse projeto demonstra que a aplicação de IAs podem ser muito úteis para mapeamentos. os dois modelos de IA utilizados nesse projeto, são considerado modelos simples, porem, ainda assim conseguiram resultados sastifatorios.
